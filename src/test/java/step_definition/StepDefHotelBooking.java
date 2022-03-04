@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.openqa.selenium.support.PageFactory;
 
 
@@ -197,7 +196,6 @@ public void allocate_rooms_such_that_room_for_minimum_guests(int arg1, int arg2)
 	if(arg2 <=3) {
     	System.out.println("***** 1 room");
     	assertEquals(1, arg1);
-    	
     }
     else if(arg2 <=6){
     	System.out.println("***** 2 rooms");
