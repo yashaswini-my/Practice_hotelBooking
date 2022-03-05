@@ -32,7 +32,7 @@ public class StepDefHotelBooking {
 	objhbpg = new HotelBookingPageFactory(driver);
 	objhbpg = PageFactory.initElements(driver,HotelBookingPageFactory.class );
 
-	//driver.get("‪C:\\Selenium_class\\Html_Hotel_booking.html");
+	//driver.get("‪file:///C:/Selenium_class/Html_Hotel_booking.html");
 	}
 
 
