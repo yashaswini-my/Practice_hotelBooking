@@ -75,7 +75,7 @@ public void user_enters_all_valid_data() throws Throwable {
 
 @Then("^navigate to welcome page$")
 public void navigate_to_welcome_page() throws Throwable {
-	driver.navigate().to("file:///E:/1capgemini%20docs/selenium_cap_code/hotel_booking_solution/hotelBookingSolution/hotelBooking/success.html");
+	driver.navigate().to("‪C:\\Selenium_class\\Html_Hotel_booking.html");
 	String str1=driver.getTitle();
 	System.out.println(str1);
 	driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
